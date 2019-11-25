@@ -8,7 +8,6 @@ const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder
 export default class Profile extends Component {
   constructor(props) {
   	super(props);
-
   	this.state = {
   	  person: {
   	  	name() {
